@@ -11,3 +11,4 @@ gulp.task('minifyHTML', function(){
              .pipe(minifyHTML({collapseWhitespace: true}))
              .pipe(gulp.dest(DEST));
 });
+
